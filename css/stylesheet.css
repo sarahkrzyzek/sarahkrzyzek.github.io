@@ -1,0 +1,29 @@
+/* Overrides */
+
+.btn-primary {
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+.btn-xl {
+  border-radius: 40px;
+  padding: 15px 25px;
+}
+
+.col-md-8 {
+  float: none;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    border-radius: none;
+  }
+
+  .navbar-custom .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #fed136;
+  }
+
+  section#contact {
+  background-color: #c2c2c2;
+}
