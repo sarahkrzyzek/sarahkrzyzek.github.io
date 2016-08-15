@@ -62,3 +62,33 @@ section#contact {
 section#contact .form-group textarea.form-control {
   height: 150px;
 }
+
+section#contact {
+  background-color: #ffffff;
+  background-image: url('../img/symphony.png');
+  background-repeat: repeat;
+  }
+
+  section#contact .section-heading {
+    color: #333333;
+}
+
+.form-control {
+  border: 1px solid #bab8b8;
+}
+
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: transparent;
+}
