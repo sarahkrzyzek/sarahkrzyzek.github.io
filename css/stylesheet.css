@@ -2,13 +2,61 @@
 
 .btn-primary {
   border-radius: 40px;
-  font-size: 18px;
-  padding: 15px 25px;
+  font-size: 16px;
+  padding: 8px 20px;
+  color: #333333;
+  background-color: transparent;
+  border-color: #333333;
+  letter-spacing: 1px;
 }
 
 .btn-xl {
   border-radius: 40px;
-  padding: 15px 25px;
+  padding: 8px 20px;
+  color: #333333;
+  font-size: 16px;
+  background-color: transparent;
+  border-color: #333333;
+  letter-spacing: 1px;
+}
+
+.btn-xl .badge {
+  color: #333333;
+  background-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #26c2f9;
+  border-color: transparent;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #26c2f9;
+  border-color: transparent;
 }
 
 .navbar-custom .navbar-nav > .active > a {
@@ -16,14 +64,55 @@
 }
 
 .navbar-custom .navbar-nav > .active > a {
-  color: #fec503;
+  color: #26c2f9;
   background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
-  color: #fec503;
+.navbar-custom .navbar-nav > .active > a:focus
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #26c2f9;
   background-color: transparent;
+  font-family: "Galada", cursive;
+}
+
+.navbar-custom .navbar-brand {
+  color: white;
+  font-family: "Galada", cursive;
+}
+
+.navbar-brand .page-scroll {
+  font-family: "Galada", cursive;
+}
+
+header {
+  background-image: url('../img/hero-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 270px;
+  padding-bottom: 200px;
+}
+
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 
 .team-member img {
@@ -69,7 +158,7 @@ section#contact {
   background-repeat: repeat;
   }
 
-  section#contact .section-heading {
+section#contact .section-heading {
     color: #333333;
 }
 
@@ -90,5 +179,14 @@ section#contact {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
+  color: #12a3d5;
   background-color: transparent;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: #26c2f9;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
 }
