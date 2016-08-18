@@ -76,16 +76,11 @@ fieldset[disabled] .btn-primary.active {
 .navbar-custom .navbar-brand.active {
   color: #26c2f9;
   background-color: transparent;
-  font-family: "Galada", cursive;
 }
 
 .navbar-custom .navbar-brand {
   color: white;
-  font-family: "Galada", cursive;
-}
-
-.navbar-brand .page-scroll {
-  font-family: "Galada", cursive;
+  font-family: "Roboto Slab", serif;
 }
 
 header {
@@ -100,19 +95,15 @@ header {
   text-align: center;
   color: white;
 }
-header .intro-text {
-  padding-top: 270px;
-  padding-bottom: 200px;
-}
 
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 90px;
-  line-height: 50px;
-  margin-bottom: 25px;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 30px;
+  font-size: 135px;
+  line-height: 75px;
+  margin-bottom: 50px;
 }
 
 .team-member img {
@@ -140,11 +131,31 @@ section#contact {
   .portfolio {
     text-align: center;
   } 
+  header .intro-text .intro-heading {
+    font-size: 75px;
+  }
+  header .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  }
 }
 
 @media (min-width: 768px) {
   .portfolio {
     text-align: left;
+  }
+  header .intro-text .intro-heading {
+    font-size: 135px;
+  }
+  header .intro-text {
+  padding-top: 270px;
+  padding-bottom: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .intro-text .intro-heading {
+    font-size: 160px;
   }
 }
 
@@ -156,10 +167,19 @@ section#contact {
   background-color: #ffffff;
   background-image: url('../img/symphony.png');
   background-repeat: repeat;
-  }
+}
 
 section#contact .section-heading {
     color: #333333;
+}
+
+.background-tint {
+  background-color: #ebebeb;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .form-control {
@@ -189,4 +209,9 @@ section#contact .section-heading {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
+}
+
+h4 {
+  font-family: "Roboto Slab";
+  letter-spacing: 1px;
 }
