@@ -79,31 +79,27 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #333333;
   font-family: "Roboto Slab", serif;
 }
 
-header {
-  background-image: url('../img/hero-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+.navbar-custom.affix .navbar-brand, .navbar-custom.affix li a {
+  color: #fff;
 }
 
-header .intro-text .intro-heading {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 30px;
-  font-size: 135px;
-  line-height: 75px;
-  margin-bottom: 50px;
+.navbar-custom .navbar-toggle {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  color: #12a3d5;
+  background-color: transparent;
+}
+
+.team-member {
+  padding-top: 40px;
 }
 
 .team-member img {
@@ -119,7 +115,7 @@ header .intro-text .intro-heading {
 #services {
   padding-top: 70px;
   padding-bottom: 70px;
-} 
+}
 
 section#contact {
   background-color: #c2c2c2;
@@ -195,23 +191,20 @@ hr {
   border-color: transparent;
 }
 
-.navbar-custom .navbar-toggle {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  color: #12a3d5;
-  background-color: transparent;
-}
-
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: #26c2f9;
+  background: rgba(38, 194, 249, 0.5);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
+}
+
+.portfolio-rule {
+  border: 2px solid #EEEEEE;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 h4 {
